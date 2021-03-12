@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938697422862",
+    "project_id": "kazii-2125f",
+    "storage_bucket": "kazii-2125f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938697422862:android:cf6592757217069b99a45f",
+        "android_client_info": {
+          "package_name": "com.ronkenolylevy.myfirstkaziapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938697422862-hip7is5fk8nb8geh6keleaspd5h47iu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgtxjIJjG1vO2l8Kxh1jUEl7g5I317wQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938697422862-hip7is5fk8nb8geh6keleaspd5h47iu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

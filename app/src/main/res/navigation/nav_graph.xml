@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.ronkenolylevy.myfirstkaziapplication.ui.main.JobSearch"
+        android:label="@string/tab_text_1"
+        tools:layout="@layout/job_search_fragment">
+
+        <action
+            android:id="@+id/job"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.ronkenolylevy.myfirstkaziapplication.ui.main.RecentSearches"
+        android:label="@string/tab_text_2"
+        tools:layout="@layout/recent_searches_fragment">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

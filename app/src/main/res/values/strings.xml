@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="dont_have">Dont have an account?</string>
+    <string name="sign_up">Signup</string>
+    <string name="have_acc">Already have an account?</string>
+    <string name="have_acc_login">Login</string>
+    <string name="title_activity_landing_a_ctivity"></string>
+    <string name="tab_text_1">Job Feed</string>
+    <string name="tab_text_2">Recent searches</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_jobs">MyJobs</string>
+    <string name="tab_text_3">Saved</string>
+    <string name="tab_text_4">Applied</string>
+
+
+
+</resources>
